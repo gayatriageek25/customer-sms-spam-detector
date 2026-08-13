@@ -68,4 +68,4 @@ Output: **Not Spam**
 Completed as a beginner/intermediate machine-learning NLP project.
 
 ## Author
-Add your name here.
+Gayatri Pradhan
