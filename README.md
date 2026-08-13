@@ -54,6 +54,27 @@ Run the app:
 ```bash
 streamlit run app.py
 ```
+## Model Performance
+
+The trained Logistic Regression model was evaluated on a held-out test set.
+
+| Metric    | Not Spam | Spam |
+| --------- | -------: | ---: |
+| Precision |      99% |  93% |
+| Recall    |      99% |  95% |
+| F1-Score  |      99% |  94% |
+
+**Overall Accuracy: 98.48%**
+
+### Confusion Matrix
+
+```text
+                 Predicted
+              Not Spam   Spam
+Actual
+Not Spam         956      10
+Spam               7     142
+```
 
 ## Example
 Input: "Congratulations! You have won a free prize. Click the link to claim now."
